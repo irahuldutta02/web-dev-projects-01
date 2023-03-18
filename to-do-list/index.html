@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon"
+        href="https://raw.githubusercontent.com/irahuldutta02/dynamic-images/main/persons/rahul-dutta-dp-1.jpg">
+    <title>TO DO LIST</title>
+    <style>
+        /* self-icon-css */
+        #myBtn {
+            position: fixed;
+            height: 40px;
+            width: 40px;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            background-image: url(https://raw.githubusercontent.com/irahuldutta02/dynamic-images/main/persons/rahul-dutta-dp-1.jpg);
+            background-size: cover;
+            cursor: pointer;
+            border-radius: 50%;
+            border: 2px solid rgba(14, 46, 59, 1);
+            transition-duration: 0.5s;
+        }
+
+        #myBtn:hover {
+            height: 50px;
+            width: 50px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        :root {
+            --color1: #22223b;
+            --color2: #4a4e69;
+            --color3: #9a8c98;
+            --color4: #c9ada7;
+            --color5: #f2e9e4;
+
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        ul li {
+            cursor: pointer;
+            position: relative;
+            padding: 12px 8px 12px 40px;
+            background: var(--color5);
+            font-size: 18px;
+            transition: 0.2s;
+            margin: 5px;
+            border: 2px solid var(--color1);
+            border-radius: 10px 35px 10px 35px;
+            transition-duration: 0.5s;
+
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        ul li:nth-child(odd) {
+            background: var(--color4);
+        }
+
+        ul li:hover {
+            background: var(--color1);
+            color: white;
+        }
+
+        ul li.checked {
+            background: var(--color2);
+            color: white;
+            text-decoration: line-through;
+        }
+
+        ul li.checked::before {
+            content: '';
+            position: absolute;
+            border-color: white;
+            border-style: solid;
+            border-width: 0 2px 2px 0;
+            top: 10px;
+            left: 16px;
+            transform: rotate(45deg);
+            height: 15px;
+            width: 7px;
+        }
+
+        .close {
+            position: absolute;
+            right: 2px;
+            top: 2px;
+            bottom: 2px;
+            padding: 12px 16px 12px 16px;
+            border-radius: 10px 35px 10px 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            transition-duration: 0.5s;
+        }
+
+        .close:hover {
+            background-color: var(--color4);
+            color: white;
+            font-size: larger;
+            font-weight: bold;
+        }
+
+        .header {
+            background-color: var(--color2);
+            padding: 30px 40px;
+            color: white;
+            text-align: center;
+            border-radius: 10px 65px 10px 65px;
+            height: 200px;
+        }
+
+        .header:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .data-validation {
+            padding-top: 30px;
+            font-weight: bold;
+        }
+
+        input {
+            margin: 0;
+            border: none;
+            border-radius: 10px 35px 10px 35px;
+            height: 50px;
+            width: 75%;
+            padding: 10px;
+            float: left;
+            font-size: 16px;
+            background-color: var(--color5);
+        }
+
+        input:focus {
+            background-color: var(--color1);
+            color: white;
+        }
+
+        .addBtn {
+            height: 50px;
+            border-radius: 10px 35px 10px 35px;
+            padding: 15px;
+            width: 25%;
+            background: var(--color5);
+            color: black;
+            float: left;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .addBtn:hover {
+            background-color: var(--color1);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="myDIV" class="header">
+        <h2>TO DO LIST WEB APP</h2>
+        <input type="text" id="myInput" placeholder="Title..." maxlength="25">
+        <span onclick="newElement()" class="addBtn">Add</span>
+        <br>
+        <div class="data-validation">
+            <p id="numloc">Be more productive with to do list.</p>
+        </div>
+    </div>
+
+    <ul id="myUL">
+    </ul>
+
+    <!-- self-icon -->
+    <a target="_blank" href="https://www.linkedin.com/in/irahuldutta02/" id="myBtn"></a>
+    <!-- self-icon -->
+
+    <script>
+        var myNodelist = document.getElementsByTagName("LI");
+        var i;
+        for (i = 0; i < myNodelist.length; i++) {
+            var span = document.createElement("SPAN");
+            var txt = document.createTextNode("X");
+            span.className = "close";
+            span.appendChild(txt);
+            myNodelist[i].appendChild(span);
+        }
+        var list = document.querySelector('ul');
+        list.addEventListener('click', function (ev) {
+            if (ev.target.tagName === 'LI') {
+                ev.target.classList.toggle('checked');
+                document.getElementById("numloc").innerHTML = "Task completed.";
+                document.getElementById("numloc").style.color = "#2192FF";
+            }
+        }, false);
+        function newElement() {
+            var li = document.createElement("li");
+            var inputValue = document.getElementById("myInput").value;
+            var t = document.createTextNode(inputValue);
+            li.appendChild(t);
+            if (inputValue === '') {
+                document.getElementById("numloc").innerHTML = "Enter Somthing to add.";
+                document.getElementById("numloc").style.color = "red";
+            } else {
+                document.getElementById("myUL").appendChild(li);
+                document.getElementById("numloc").innerHTML = "Task added.";
+                document.getElementById("numloc").style.color = "#38E54D";
+            }
+
+            document.getElementById("myInput").value = "";
+
+            var span = document.createElement("SPAN");
+            var txt = document.createTextNode("X");
+            span.className = "close";
+            span.appendChild(txt);
+            li.appendChild(span);
+
+            for (i = 0; i < close.length; i++) {
+                close[i].onclick = function () {
+                    var div = this.parentElement;
+                    div.style.display = "none";
+                }
+            }
+        }
+        var close = document.getElementsByClassName("close");
+        var i;
+        for (i = 0; i < close.length; i++) {
+            close[i].onclick = function () {
+                var div = this.parentElement;
+                div.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
