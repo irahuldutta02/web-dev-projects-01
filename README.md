@@ -13,13 +13,13 @@
 
 ### 3. Calculator
   - using `html` `css` `javascript`
-  - [Source Code](./calculator/)
-  - [Live Demo](https://irahuldutta02.github.io/web-dev-projects-01/calculator/index.html)
+  - [Source Code](./calculator-01/)
+  - [Live Demo](https://irahuldutta02.github.io/web-dev-projects-01/calculator-01/index.html)
 
 ### 4. To Do List
   - using `html` `css` `javascript`
-  - [Source Code](./to-do-list/)
-  - [Live Demo](https://irahuldutta02.github.io/web-dev-projects-01/to-do-list/index.html)
+  - [Source Code](./to-do-list-01/)
+  - [Live Demo](https://irahuldutta02.github.io/web-dev-projects-01/to-do-list-01/index.html)
 
 ### 5. Tribute Page 01
   - using `html` `css`
