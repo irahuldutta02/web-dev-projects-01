@@ -1,34 +1,40 @@
 # web-dev-projects-01
-- https://irahuldutta02.github.io/web-dev-projects-01
 
-### 1. Portfolio Project 01
+### Calculator 01
+  - using `html` `css` `javascript`
+  - [Code](https://github.com/irahuldutta02/web-dev-projects-01/tree/main/calculator-01)
+  - [Live](https://irahuldutta02.github.io/web-dev-projects-01/calculator-01/index.html)
+  - [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/irahuldutta02/web-dev-projects-01/tree/main/calculator-01)
+
+### Portfolio Project 01
   - using `html` `css`
-  - [Source Code](./portfilio-project-01/)
-  - [Live Demo](https://irahuldutta02.github.io/web-dev-projects-01/portfilio-project-01/index.html)
+  - [Code](https://github.com/irahuldutta02/web-dev-projects-01/tree/main/portfilio-project-01)
+  - [Live](https://irahuldutta02.github.io/web-dev-projects-01/portfilio-project-01)
+  - [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/irahuldutta02/web-dev-projects-01/tree/main/portfilio-project-01)
 
-### 2. TinDog
+### TinDog
   - tinder like application for dogs using `bootstrap`
-  - [Source Code](./tindog-bootstrap/)
-  - [Live Demo](https://irahuldutta02.github.io/web-dev-projects-01/tindog-bootstrap/index.html)
+  - [Code](https://github.com/irahuldutta02/web-dev-projects-01/tree/main/tindog-bootstrap)
+  - [Live](https://irahuldutta02.github.io/web-dev-projects-01/tindog-bootstrap)
+  - [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/irahuldutta02/web-dev-projects-01/tree/main/tindog-bootstrap)
 
-### 3. Calculator 01
+### To Do List 01
   - using `html` `css` `javascript`
-  - [Source Code](./calculator-01/)
-  - [Live Demo](https://irahuldutta02.github.io/web-dev-projects-01/calculator-01/index.html)
-
-### 4. To Do List 01
-  - using `html` `css` `javascript`
-  - [Source Code](./to-do-list-01/)
-  - [Live Demo](https://irahuldutta02.github.io/web-dev-projects-01/to-do-list-01/index.html)
-
-### 5. Tribute Page 01
+  - [Code](https://github.com/irahuldutta02/web-dev-projects-01/tree/main/to-do-list-01)
+  - [Live](https://irahuldutta02.github.io/web-dev-projects-01/to-do-list-01)
+  - [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/irahuldutta02/web-dev-projects-01/tree/main/to-do-list-01)
+  
+### Tribute Page 01
   - using `html` `css`
-  - [Source Code](./tribute-page-01/)
-  - [Live Demo](https://irahuldutta02.github.io/web-dev-projects-01/tribute-page-01/index.html)
+  - [Code](https://github.com/irahuldutta02/web-dev-projects-01/tree/main/tribute-page-01)
+  - [Live](https://irahuldutta02.github.io/web-dev-projects-01/tribute-page-01)
+  - [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/irahuldutta02/web-dev-projects-01/tree/main/tribute-page-01)
 
-### 6. Unit Converter 01
-  - using `html` `javascript`
-  - [Source Code](./unit-converter-01/)
-  - [Live Demo](https://irahuldutta02.github.io/web-dev-projects-01/unit-converter-01/index.html)
+### Unit Converter 01
+  - using `html` `css` `JavaScript`
+  - [Code](https://github.com/irahuldutta02/web-dev-projects-01/tree/main/unit-converter-01)
+  - [Live](https://irahuldutta02.github.io/web-dev-projects-01/tribute-page-01)
+  - [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/irahuldutta02/web-dev-projects-01/tree/main/tribute-page-01)
+
   
  
