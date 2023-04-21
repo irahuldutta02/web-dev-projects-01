@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon"
-        href="https://raw.githubusercontent.com/irahuldutta02/dynamic-images/main/persons/rahul-dutta-dp-1.jpg">
+        href="https://d.img.vision/irahuldutta02/rd-favicon.png">
     <title>TO DO LIST</title>
     <style>
         /* self-icon-css */
@@ -15,18 +16,15 @@
             bottom: 20px;
             right: 30px;
             z-index: 99;
-            background-image: url(https://raw.githubusercontent.com/irahuldutta02/dynamic-images/main/persons/rahul-dutta-dp-1.jpg);
+            background-image: url(https://d.img.vision/irahuldutta02/self-icon-rd.jpg);
             background-size: cover;
             cursor: pointer;
             border-radius: 50%;
             border: 2px solid rgba(14, 46, 59, 1);
-            transition-duration: 0.5s;
+            object-fit: none;
+            box-shadow: 0px 0px 5px 2px rgb(0, 0, 0);
         }
-
-        #myBtn:hover {
-            height: 50px;
-            width: 50px;
-        }
+        /* self-icon-css */
 
         * {
             box-sizing: border-box;
@@ -119,7 +117,7 @@
             color: white;
             text-align: center;
             border-radius: 10px 65px 10px 65px;
-            height: 200px;
+            height: 250px;
         }
 
         .header:after {
@@ -140,6 +138,7 @@
             height: 50px;
             width: 75%;
             padding: 10px;
+            padding-left: 30px;
             float: left;
             font-size: 16px;
             background-color: var(--color5);
@@ -168,25 +167,33 @@
             background-color: var(--color1);
             color: white;
         }
+
+        .main{
+            width: 90%;
+            margin: auto;
+            max-width: 800px;
+        }
+
     </style>
 </head>
 
 <body>
-    <div id="myDIV" class="header">
-        <h2>TO DO LIST WEB APP</h2>
-        <input type="text" id="myInput" placeholder="Title..." maxlength="25">
-        <span onclick="newElement()" class="addBtn">Add</span>
-        <br>
-        <div class="data-validation">
-            <p id="numloc">Be more productive with to do list.</p>
+    <div class="main">
+        <div id="myDIV" class="header">
+            <h2>TO DO LIST WEB APP</h2>
+            <input type="text" id="myInput" placeholder="Title..." maxlength="25">
+            <span onclick="newElement()" class="addBtn">Add</span>
+            <br>
+            <div class="data-validation">
+                <p id="numloc">Be more productive with to do list.</p>
+            </div>
         </div>
+    
+        <ul id="myUL"></ul>
     </div>
 
-    <ul id="myUL">
-    </ul>
-
     <!-- self-icon -->
-    <a target="_blank" href="https://www.linkedin.com/in/irahuldutta02/" id="myBtn"></a>
+    <a target="_blank" href="https:rahuldutta.bio.link" id="myBtn"></a>
     <!-- self-icon -->
 
     <script>
