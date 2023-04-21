@@ -7,7 +7,7 @@
 ### Calculator 01
   - using `html` `css` `javascript`
   - [Code](https://github.com/irahuldutta02/web-dev-projects-01/tree/main/calculator-01)
-  - [Live](https://irahuldutta02.github.io/web-dev-projects-01/calculator-01/index.html)
+  - [Live](https://irahuldutta02.github.io/web-dev-projects-01/calculator-01)
   - [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/irahuldutta02/web-dev-projects-01/tree/main/calculator-01)
 
 ### Portfolio Project 01
@@ -37,8 +37,8 @@
 ### Unit Converter 01
   - using `html` `css` `JavaScript`
   - [Code](https://github.com/irahuldutta02/web-dev-projects-01/tree/main/unit-converter-01)
-  - [Live](https://irahuldutta02.github.io/web-dev-projects-01/tribute-page-01)
-  - [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/irahuldutta02/web-dev-projects-01/tree/main/tribute-page-01)
+  - [Live](https://irahuldutta02.github.io/web-dev-projects-01/unit-converter-01)
+  - [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/irahuldutta02/web-dev-projects-01/tree/main/unit-converter-01)
 
   
  
