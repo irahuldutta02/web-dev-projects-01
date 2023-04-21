@@ -3,12 +3,33 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon"
-        href="https://raw.githubusercontent.com/irahuldutta02/dynamic-images/main/persons/rahul-dutta-dp-1.jpg">
+    <!-- self-fav-icon  -->
+    <link rel="shortcut icon" href="https://d.img.vision/irahuldutta02/rd-favicon.png" type="image/x-icon">
+    <!-- self-fav-icon  -->
     <title>CALCULATOR</title>
 
     <style>
+        /* self-icon-css */
+        #myBtn {
+            position: fixed;
+            height: 40px;
+            width: 40px;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            background-image: url(https://d.img.vision/irahuldutta02/self-icon-rd.jpg);
+            background-size: cover;
+            cursor: pointer;
+            border-radius: 50%;
+            border: 2px solid rgba(14, 46, 59, 1);
+            object-fit: none;
+            box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        /* self-icon-css */
+
         html {
             height: 100%;
         }
@@ -52,7 +73,7 @@
             border: 3px solid rgba(125, 185, 179, 1);
             font-size: 18px;
             font-weight: bolder;
-            width: 100px;
+            width: 60px;
             height: 65px;
             background-color: rgba(216, 215, 195, 1);
             margin: 5px;
@@ -67,7 +88,7 @@
 
         #display {
             background-color: rgba(216, 215, 195, 1);
-            width: 450px;
+            width: 290px;
             font-size: 45px;
             padding: 2px;
             margin: 0%;
@@ -89,8 +110,8 @@
             padding: 23px;
             border-radius: 10px;
             border: 4px;
-            display: inline-block;
-            max-width: 550px;
+            /* display: inline-block; */
+            max-width: 350px;
         }
 
         html,
@@ -110,87 +131,69 @@
             font-size: 18px;
             font-weight: bold;
         }
-
-        /* self-icon-css */
-        #myBtn {
-            position: fixed;
-            height: 40px;
-            width: 40px;
-            bottom: 20px;
-            right: 30px;
-            z-index: 99;
-            background-image: url(https://raw.githubusercontent.com/irahuldutta02/dynamic-images/main/persons/rahul-dutta-dp-1.jpg);
-            background-size: cover;
-            cursor: pointer;
-            border-radius: 50%;
-            border: 2px solid rgba(14, 46, 59, 1);
-            transition-duration: 0.5s;
+        .main{
+            max-width: 350px;
+            width: 90%;
+            margin: auto;
         }
-
-        #myBtn:hover {
-            height: 50px;
-            width: 50px;
-        }
-
-        /* self-icon-css */
     </style>
 </head>
 
 <body>
 
-    <div class="back-ground"></div>
-    <div class="back-ground"></div>
-    <div class="back-ground"></div>
+    <div class="main">
 
-    </div>
+        <div class="back-ground"></div>
+        <div class="back-ground"></div>
+        <div class="back-ground"></div>
+        <div class="container">
+            <div class="calculator_display"></div>
+            <input type="text" name="display" id="display">
+            <div class="calculator">
+                <table>
+                    <tr>
+                        <td><input type="button" value="(" onclick="add('(')">
+                        <td><input type="button" value=")" onclick="add(')')">
+                        <td><input class="button-text" type="button" value="<--" onclick="back()">
+                        <td><input class="button-text" type="button" value="C" onclick="clearDisplay()">
 
-    <div class="container">
-        <div class="calculator_display"></div>
-        <input type="text" name="display" id="display">
-        <div class="calculator">
-            <table>
-                <tr>
-                    <td><input type="button" value="(" onclick="add('(')">
-                    <td><input type="button" value=")" onclick="add(')')">
-                    <td><input class="button-text" type="button" value="<--" onclick="back()">
-                    <td><input class="button-text" type="button" value="C" onclick="clearDisplay()">
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="7" onclick="add('7')">
+                        <td><input type="button" value="8" onclick="add('8')">
+                        <td><input type="button" value="9" onclick="add('9')">
+                        <td><input type="button" value="X" onclick="add('*')">
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="4" onclick="add('4')">
+                        <td><input type="button" value="5" onclick="add('5')">
+                        <td><input type="button" value="6" onclick="add('6')">
+                        <td><input type="button" value="-" onclick="add('-')">
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="1" onclick="add('1')">
+                        <td><input type="button" value="2" onclick="add('2')">
 
-                </tr>
-                <tr>
-                    <td><input type="button" value="7" onclick="add('7')">
-                    <td><input type="button" value="8" onclick="add('8')">
-                    <td><input type="button" value="9" onclick="add('9')">
-                    <td><input type="button" value="X" onclick="add('*')">
-                </tr>
-                <tr>
-                    <td><input type="button" value="4" onclick="add('4')">
-                    <td><input type="button" value="5" onclick="add('5')">
-                    <td><input type="button" value="6" onclick="add('6')">
-                    <td><input type="button" value="-" onclick="add('-')">
-                </tr>
-                <tr>
-                    <td><input type="button" value="1" onclick="add('1')">
-                    <td><input type="button" value="2" onclick="add('2')">
+                        <td><input type="button" value="3" onclick="add('3')">
+                        <td><input type="button" value="+" onclick="add('+')">
 
-                    <td><input type="button" value="3" onclick="add('3')">
-                    <td><input type="button" value="+" onclick="add('+')">
-
-                </tr>
-                <tr>
-                    <td><input type="button" value="0" onclick="add('0')">
-                    <td><input type="button" value="." onclick="add('.')">
-                    <td><input type="button" value="/" onclick="add('/')">
-                    <td><input type="button" value="=" onclick="result()">
-                </tr>
-            </table>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="0" onclick="add('0')">
+                        <td><input type="button" value="." onclick="add('.')">
+                        <td><input type="button" value="/" onclick="add('/')">
+                        <td><input type="button" value="=" onclick="result()">
+                    </tr>
+                </table>
+            </div>
+            <button></button>
+            <button></button>
+            <button></button>
         </div>
-        <button></button>
-        <button></button>
-        <button></button>
     </div>
 
     <!-- self-icon -->
-    <a target="_blank" href="https://www.linkedin.com/in/irahuldutta02/" id="myBtn"></a>
+    <a target="_blank" href="https:rahuldutta.bio.link" id="myBtn"></a>
     <!-- self-icon -->
 
     <script>
