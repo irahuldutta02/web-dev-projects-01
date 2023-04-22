@@ -140,3 +140,20 @@ hr{
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+
+.top-container{
+  padding: 20px;
+}
+
+@media (max-width: 600px ) {
+  #mountain-img,
+  .top-cloud,
+  .bottom-cloud{
+    display: none;
+  }
+  .top-container h1,
+  .top-container h2{
+    font-size: 40px;
+  }
+
+}
