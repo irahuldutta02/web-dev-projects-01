@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+/* 
+font-family: 'Manrope', sans-serif; 
+*/
+
+/* =============
+CSS Reset  
+============== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+/* =============
+Root Variables
+============== */
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --light-blue: #0090f1;
+  --gray-white: #f2f2f2;
+  --color-1: #0c151a;
+  --border-color: #007bff;
+}
+
+/* =============
+Utility Classes
+============== */
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+/* =============
+Navigation 
+============== */
+
+nav {
+  padding: 0 2rem;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
+
+.navigationBar {
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: auto;
+  height: 4rem;
+}
+
+.onecardLogo {
+  align-items: center;
+}
+
+.onecardLogo img {
+  width: 80px;
+}
+
+.navItems {
+  align-items: center;
+  justify-content: center;
+}
+
+.navLink {
+  padding: 0 1rem;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #323232;
+}
+
+.navLink:hover {
+  color: #000000;
+}
+
+.navButton {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 1rem;
+  background-color: var(--light-blue);
+  color: white;
+  border-radius: 4px;
+  padding: 0.4rem;
+  font-weight: 600;
+  letter-spacing: 0px;
+  border: 1px solid var(--border-color);
+  transition: 0.15s ease-in-out 0s;
+}
+
+.navButton:hover {
+  background-color: var(--border-color);
+}
+
+/* ========================
+Call For Action Section - 1 
+========================= */
+
+.callForAction1 {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 4rem;
+}
+
+.leftCallForAction1 {
+  flex-direction: column;
+  max-width: 33.75rem;
+  padding: 0 1rem;
+  padding: 3.12rem 1.5rem;
+}
+
+.leftCallForAction1 > * {
+  margin-top: 1rem;
+}
+
+.leftCallForAction1 div h2 {
+  font-size: 2rem;
+}
+
+.leftCallForAction1 div h1 {
+  font-size: 3.6rem;
+  color: var(--light-blue);
+}
+
+.leftCallForAction1 div h3 {
+  color: #1892f7;
+}
+
+.leftCallForAction1 div p {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  max-width: 90%;
+  line-height: 1.8rem;
+}
+
+.leftCallForAction1 div img {
+  width: 355px;
+  margin-top: 1rem;
+}
+
+.leftCallForAction1 div button {
+  width: 16rem;
+  height: 2.34rem;
+  background-color: var(--light-blue);
+  color: white;
+  border-radius: 4px;
+  padding: 0.4rem;
+  font-size: larger;
+  letter-spacing: 0px;
+  border: 1px solid var(--border-color);
+  transition: 0.15s ease-in-out 0s;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.5rem;
+}
+
+.rightCallForAction1 {
+  height: 37.25rem;
+}
+
+/* ========================
+Call For Action Section - 2
+=========================== */
+
+.callForAction2 {
+  background-color: #000000;
+  padding: 50px 0;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 100px;
+  /* letter-spacing: 0.1rem; */
+}
+
+.callForAction2 h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 50px 0;
+  text-align: center;
+
+  /* ! important : liner gradient font color  */
+  background: linear-gradient(
+    92deg,
+    #217ee6 3%,
+    #3187d5 44%,
+    #69a798 70%,
+    #fcf2a6 95%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.callForAction2 div {
+  font-size: 3rem;
+}
+
+/* ==============
+Features
+================= */
+
+.feature1,
+.feature2 {
+  padding: 50px 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.feature1right {
+  flex-direction: column;
+  max-width: 33.12rem;
+  align-items: end;
+  justify-content: center;
+}
+
+.feature1right h1 {
+  font-size: 3.5rem;
+}
+
+.feature1right p {
+  text-align: end;
+  color: #4e4e4e;
+  font-size: 1.6rem;
+}
+
+.feature1right img {
+  width: 4rem;
+}
+
+.feature1Left {
+  max-width: 460px;
+  max-height: 460px;
+}
+
+.feature2Left {
+  flex-direction: column;
+  max-width: 33.12rem;
+  justify-content: center;
+}
+
+.feature2Left img {
+  width: 4rem;
+}
+
+.feature2Left p {
+  color: #4e4e4e;
+  font-size: 1.6rem;
+}
+
+.feature2Left h1 {
+  font-size: 3.5rem;
+}
+
+.feature2right {
+  max-width: 510px;
+  max-height: 510px;
+}
+
+.evenFeature{
+    background-color: var(--gray-white);
+}
+
+/* ===============
+Blog Link Section
+================== */
+
+/* ============
+Banking Partner
+=============== */
+
+/* ======
+Investor
+========= */
+
+/* ====
+Footer
+======= */
+
+/* ====
+To-top
+======= */
