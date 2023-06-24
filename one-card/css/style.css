@@ -209,82 +209,313 @@ Call For Action Section - 2
 Features
 ================= */
 
+/* common  */
+
 .feature1,
-.feature2 {
+.feature2,
+.feature3,
+.feature4 {
   padding: 50px 0;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.feature1right {
+.evenFeature {
+  background-color: var(--gray-white);
+}
+
+.oddFeature {
+  background-color: var(--white);
+}
+
+/* feature1 */ /* feature3 */
+
+.feature1right,
+.feature3right {
   flex-direction: column;
   max-width: 33.12rem;
   align-items: end;
   justify-content: center;
 }
 
-.feature1right h1 {
+.feature1right h1,
+.feature3right h1 {
   font-size: 3.5rem;
 }
 
-.feature1right p {
+.feature1right p,
+.feature3right p {
   text-align: end;
   color: #4e4e4e;
   font-size: 1.6rem;
 }
 
-.feature1right img {
+.feature1right img,
+.feature2Left img {
   width: 4rem;
 }
 
-.feature1Left {
+.feature1Left,
+.feature3Left {
   max-width: 460px;
   max-height: 460px;
 }
 
-.feature2Left {
+/* feature2 */ /* feature4 */
+
+.feature2Left,
+.feature4Left {
   flex-direction: column;
   max-width: 33.12rem;
   justify-content: center;
 }
 
-.feature2Left img {
+.feature2Left img,
+.feature4Left img {
   width: 4rem;
 }
 
-.feature2Left p {
+.feature2Left p,
+.feature4Left p {
   color: #4e4e4e;
   font-size: 1.6rem;
 }
 
-.feature2Left h1 {
+.feature2Left h1,
+.feature4Left h1 {
   font-size: 3.5rem;
 }
 
-.feature2right {
+.feature2right,
+.feature4right {
   max-width: 510px;
   max-height: 510px;
-}
-
-.evenFeature{
-    background-color: var(--gray-white);
 }
 
 /* ===============
 Blog Link Section
 ================== */
 
+.blogSection {
+  padding: 4rem;
+}
+
+.blogSectionTitle {
+  padding-bottom: 50px;
+}
+
+.blogSectionTitle h1 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.blogSectionCardsDiv p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5rem 0;
+}
+
+.blogSectionTitle h1 span {
+  color: #007bff;
+}
+
+/* .cards{
+  flex-wrap: wrap;
+} */
+
+.card {
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 10px;
+}
+
+.card p {
+  color: #898989;
+  padding: 5px 0;
+}
+
+.card h3 {
+  color: #4d4d4d;
+  padding: 5px 0;
+}
+
+.blogSectionButton {
+  padding: 50px;
+  text-align: center;
+}
+
+.blogSectionButton button {
+  padding: 7px 5px;
+  border: none;
+  border-radius: 10px;
+  width: 8.954rem;
+  height: 2.688rem;
+  font-weight: 600;
+  font-size: 1rem;
+  background-image: linear-gradient(to bottom, #217ee6, #2498e3);
+  color: #fff;
+}
+
 /* ============
 Banking Partner
 =============== */
+.bankingPartner {
+  background-color: var(--gray-white);
+  padding: 4rem;
+}
+.bankingPartnerDiv {
+  text-align: center;
+}
+.bankingPartnerDiv img {
+  width: 70%;
+  max-width: 25rem;
+}
+
+.bankingPartnerDiv div h1 {
+  font-size: 4rem;
+}
+
+.bankingPartnerDiv div h3 {
+  font-size: 1.6rem;
+  font-weight: lighter;
+  color: #5e5e5e;
+}
+
+.bankingPartnerDiv div > * {
+  padding: 1rem;
+}
 
 /* ======
 Investor
 ========= */
 
+.investers{
+  padding: 4rem;
+}
+
+.investersDiv{
+  text-align: center;
+}
+
+.investersDiv h1{
+  font-size: 4rem;
+}
+
+.investersDiv p{
+  font-size: 1.7rem;
+  color: #a3a3a3;
+}
+
+.investersDiv > *{
+  padding: 1rem;
+}
+
+.investerImages{
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 /* ====
 Footer
 ======= */
+
+.footer{
+  background-color: var(--color-1);
+  color: white;
+  padding: 4rem;
+}
+
+.foot3{
+  text-align: center;
+}
+
+.foot2{
+  padding: 3rem 0;
+  flex-wrap: wrap;
+}
+
+.foot2 > * {
+  flex-direction: column;
+  padding-top: 1rem ;
+}
+
+.foot2 > * > h2{
+  padding-bottom: 1rem;
+}
+
+.foot2 > * > a{
+  text-decoration: none;
+  color: #007bff;
+  font-size: 1.25rem;
+}
+
+.foot2{
+  justify-content: space-between;
+}
+
+.foot3 > *{
+  margin-top: 1rem;
+}
+
+.foot3 img{
+  max-width: 400px;
+}
+
+.regulators img{
+  max-width: 50px;
+}
+
+.regulators{
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot1{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foot-1-1{
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.foot-1-1 > *{
+  padding-top: 1rem;
+}
+
+.foot-1-1 h1{
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.foot-1-2{
+  text-align: center;
+}
+
+.foot-1-2 > *{
+  padding: 1rem 0;
+}
+
+.applyNowImage{
+  width: 15rem;
+}
+
+.socials{
+justify-content: center;
+gap: 1rem;
+}
+
+.foot-1-2 p{
+  font-size: 1.5rem;
+}
+
 
 /* ====
 To-top
