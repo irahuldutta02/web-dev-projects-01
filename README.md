@@ -4,6 +4,12 @@
 
 ---
 
+### One Card Landing Page
+  - using `html` `css`
+  - [Code](https://github.com/irahuldutta02/web-dev-projects-01/tree/main/one-card)
+  - [Live](https://irahuldutta02.github.io/web-dev-projects-01/one-card)
+  - [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/irahuldutta02/web-dev-projects-01/tree/main/one-card)
+
 ### Calculator 01
   - using `html` `css` `javascript`
   - [Code](https://github.com/irahuldutta02/web-dev-projects-01/tree/main/calculator-01)
