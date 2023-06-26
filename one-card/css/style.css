@@ -108,9 +108,11 @@ Call For Action Section - 1
 ========================= */
 
 .callForAction1 {
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
   padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .leftCallForAction1 {
@@ -166,7 +168,7 @@ Call For Action Section - 1
 }
 
 .rightCallForAction1 {
-  height: 37.25rem;
+  height: ;
 }
 
 /* ========================
@@ -520,3 +522,18 @@ gap: 1rem;
 /* ====
 To-top
 ======= */
+
+
+/* media queray  */
+
+
+@media (max-width: 1170px) {
+  .container{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .rightCallForAction1 {
+    height: 20rem;
+  }
+}
