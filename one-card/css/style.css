@@ -16,6 +16,10 @@ CSS Reset
   font-family: "Manrope", sans-serif;
 }
 
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
 /* =============
 Root Variables
 ============== */
@@ -40,6 +44,22 @@ Utility Classes
 .container {
   max-width: 1140px;
   margin: auto;
+}
+
+video {
+  object-fit: contain;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 
 /* =============
@@ -167,9 +187,9 @@ Call For Action Section - 1
   padding: 0 2.5rem;
 }
 
-.rightCallForAction1 {
+/* .rightCallForAction1 {
   height: ;
-}
+} */
 
 /* ========================
 Call For Action Section - 2
@@ -395,28 +415,28 @@ Banking Partner
 Investor
 ========= */
 
-.investers{
+.investers {
   padding: 4rem;
 }
 
-.investersDiv{
+.investersDiv {
   text-align: center;
 }
 
-.investersDiv h1{
+.investersDiv h1 {
   font-size: 4rem;
 }
 
-.investersDiv p{
+.investersDiv p {
   font-size: 1.7rem;
   color: #a3a3a3;
 }
 
-.investersDiv > *{
+.investersDiv > * {
   padding: 1rem;
 }
 
-.investerImages{
+.investerImages {
   justify-content: space-around;
   flex-wrap: wrap;
 }
@@ -425,110 +445,107 @@ Investor
 Footer
 ======= */
 
-.footer{
+.footer {
   background-color: var(--color-1);
   color: white;
   padding: 4rem;
 }
 
-.foot3{
+.foot3 {
   text-align: center;
 }
 
-.foot2{
+.foot2 {
   padding: 3rem 0;
   flex-wrap: wrap;
 }
 
 .foot2 > * {
   flex-direction: column;
-  padding-top: 1rem ;
+  padding-top: 1rem;
 }
 
-.foot2 > * > h2{
+.foot2 > * > h2 {
   padding-bottom: 1rem;
 }
 
-.foot2 > * > a{
+.foot2 > * > a {
   text-decoration: none;
   color: #007bff;
   font-size: 1.25rem;
 }
 
-.foot2{
+.foot2 {
   justify-content: space-between;
 }
 
-.foot3 > *{
+.foot3 > * {
   margin-top: 1rem;
 }
 
-.foot3 img{
+.foot3 img {
   max-width: 400px;
 }
 
-.regulators img{
+.regulators img {
   max-width: 50px;
 }
 
-.regulators{
+.regulators {
   gap: 0.5rem;
   justify-content: center;
   align-items: center;
 }
 
-.foot1{
+.foot1 {
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
-.foot-1-1{
+.foot-1-1 {
   text-align: center;
   margin: 1rem 0;
 }
 
-.foot-1-1 > *{
+.foot-1-1 > * {
   padding-top: 1rem;
 }
 
-.foot-1-1 h1{
+.foot-1-1 h1 {
   font-size: 2rem;
   color: #007bff;
 }
 
-.foot-1-2{
+.foot-1-2 {
   text-align: center;
 }
 
-.foot-1-2 > *{
+.foot-1-2 > * {
   padding: 1rem 0;
 }
 
-.applyNowImage{
+.applyNowImage {
   width: 15rem;
 }
 
-.socials{
-justify-content: center;
-gap: 1rem;
+.socials {
+  justify-content: center;
+  gap: 1rem;
 }
 
-.foot-1-2 p{
+.foot-1-2 p {
   font-size: 1.5rem;
 }
-
 
 /* ====
 To-top
 ======= */
 
-
 /* media queray  */
 
-
 @media (max-width: 1170px) {
-  .container{
+  .container {
     padding-left: 2rem;
     padding-right: 2rem;
   }
