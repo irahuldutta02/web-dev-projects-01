@@ -1,7 +1,8 @@
+## My Profile Links : [rahuldutta.bio.link](https://rahuldutta.bio.link)
+
 # tindog-bootstrap
 
 - Bootstrap project - tinder like application for dogs. ( Brand logos are used only for demo purpose )
-
 - [Live](https://irahuldutta02.github.io/web-dev-projects-01/tindog-bootstrap)
 - [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/irahuldutta02/web-dev-projects-01/tree/main/tindog-bootstrap)
 
