@@ -4,6 +4,12 @@
 
 ---
 
+### trafalgar-tailwind-landing-page
+  - using `html` `Tailwind CSS`
+  - [Code](https://github.com/irahuldutta02/web-dev-projects-01/tree/main/trafalgar-tailwind-landing-page)
+  - [Live](https://irahuldutta02.github.io/web-dev-projects-01/trafalgar-tailwind-landing-page/dist/)
+  - [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/irahuldutta02/web-dev-projects-01/tree/main/trafalgar-tailwind-landing-page)
+
 ### farmman-loginpage-tailwind
   - using `html` `Tailwind CSS`
   - [Code](https://github.com/irahuldutta02/web-dev-projects-01/tree/main/farmman-loginpage-tailwind)
