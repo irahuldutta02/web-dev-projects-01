@@ -1,8 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 2rem 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navItembar {
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+.navItems {
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navItems a {
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4375rem; /* 191.667% */
+  letter-spacing: 0.09375rem;
+  font-family: "Poppins", sans-serif;
+  color: #2d2f30;
+}
+
+.navSearch {
+  justify-content: center;
+  align-items: center;
+}
+
+.heroSection .left {
+  flex: 1;
+  gap: 2rem;
+}
+
+.heroLeftImg1 {
+  justify-content: start;
+  align-items: center;
+}
+
+.heroLeftImg1 img {
+  width: 300px;
+}
+
+.heroSection .left .herotext1 {
+  gap: 1rem;
+}
+
+.heroSection .left .herotext1 h3 {
+  color: #094b72;
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 4.875rem */
+  letter-spacing: 0.08125rem;
+}
+
+.heroSection .left .herotext1 p {
+  color: #4f4f4f;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 158%; /* 2.37rem */
+  letter-spacing: 0.03125rem;
+}
+
+.herobtn1 img {
+  height: 4rem;
+}
+
+.herotext2 p {
+  color: #8b8c8c;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.5%; /* 1.93188rem */
+  letter-spacing: 0.055rem;
+}
+
+.heroSection .right {
+  flex: 1;
+  justify-content: end;
+  align-items: center;
+}
+
+.heroSection .right img {
+  width: 90%;
+}
 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
+
+/* media quaries */
+@media (max-width: 700px) {
+  .navItems {
+    display: none;
+  }
+
+  .heroSection {
+    flex-wrap: wrap;
+  }
+
+  .heroSection .right {
+    justify-content: center;
+  }
+
+  .heroSection .left {
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .heroSection .right {
+    flex: auto;
+  }
 }
