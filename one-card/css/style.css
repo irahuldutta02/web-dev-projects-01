@@ -131,7 +131,6 @@ Call For Action Section - 1
 .callForAction1 {
   justify-content: center;
   align-items: center;
-  /* flex-wrap: wrap; */
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
@@ -141,11 +140,20 @@ Call For Action Section - 1
   max-width: 33.75rem;
   padding: 0 1rem;
   padding: 3.12rem 1.5rem;
+  flex: 1;
 }
 
 .leftCallForAction1_1{
   flex-direction: column;
+  justify-content: center;
+  align-items: start;
   gap: 1rem;
+}
+
+
+.leftCallForAction1_1_2{
+  justify-content: center;
+  align-items: center;
 }
 
 .leftCallForAction1 > * {
@@ -193,9 +201,11 @@ Call For Action Section - 1
   padding: 0 2.5rem;
 }
 
-/* .rightCallForAction1 {
-  height: ;
-} */
+.rightCallForAction1{
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
 
 /* ========================
 Call For Action Section - 2
@@ -605,6 +615,18 @@ To-top
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
+  }
+
+  .leftCallForAction1_1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .leftCallForAction1_1 div{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .feature1{
