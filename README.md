@@ -22,7 +22,7 @@
   - [Live](https://irahuldutta02.github.io/web-dev-projects-01/tailwind-pricing-card-design-01/dist)
   - [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/irahuldutta02/web-dev-projects-01/tree/main/tailwind-pricing-card-design-01)
 
-### One Card Landing Page [Not Responsive - Desktop View Only] 
+### One Card Landing Page
   - using `html` `css`
   - [Code](https://github.com/irahuldutta02/web-dev-projects-01/tree/main/one-card)
   - [Live](https://irahuldutta02.github.io/web-dev-projects-01/one-card)
