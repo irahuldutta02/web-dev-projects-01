@@ -707,6 +707,10 @@ To-top
     text-align: center;
   }
 
+  .foot2{
+    flex-direction: column;
+  }
+
 
 
 }
