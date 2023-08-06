@@ -544,7 +544,7 @@ Footer
 }
 
 .foot-1-1 div img{
-  width: 90%;
+  width: 100%;
 }
 
 .foot-1-1 > * {
@@ -583,7 +583,7 @@ To-top
 
 /* media queray  */
 
-@media (max-width: 1170px) {
+/* @media (max-width: 1170px) {
   .container {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -592,11 +592,15 @@ To-top
   .rightCallForAction1 {
     height: 20rem;
   }
-}
+} */
 
 @media (max-width: 880px) {
   .navLink{
     display: none;
+  }
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .callForAction1{
     justify-content: center;
@@ -731,6 +735,31 @@ To-top
 
   .foot2{
     flex-direction: column;
+  }
+
+  .footerDiv{
+    padding: 0;
+  }
+
+  .investersDiv{
+    padding: 0;
+  }
+
+  .bankingPartnerDiv{
+    padding: 0;
+  }
+
+  .blogSectionDiv{
+    padding: 0;
+  }
+
+  .cards{
+    text-align: left;
+  }
+
+  .evenFeature h1,
+  .oddFeature h1{
+    font-size: 2rem;
   }
 
 
