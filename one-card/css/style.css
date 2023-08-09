@@ -613,7 +613,13 @@ To-top
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
+    flex: auto;
   }
+
+  .rightCallForAction1{
+    flex: auto;
+  }
+  
   .leftCallForAction1 > div{
     justify-content: center;
     align-items: center;
