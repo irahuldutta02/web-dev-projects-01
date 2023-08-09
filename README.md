@@ -4,6 +4,12 @@
 
 ---
 
+### liquid-landing-page
+  - using `html` `Tailwind CSS`
+  - [Code](https://github.com/irahuldutta02/web-dev-projects-01/tree/main/liquid-landing-page)
+  - [Live](https://irahuldutta02.github.io/web-dev-projects-01/liquid-landing-page/dist/)
+  - [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/irahuldutta02/web-dev-projects-01/tree/main/liquid-landing-page)
+
 ### trafalgar-tailwind-landing-page
   - using `html` `Tailwind CSS`
   - [Code](https://github.com/irahuldutta02/web-dev-projects-01/tree/main/trafalgar-tailwind-landing-page)
