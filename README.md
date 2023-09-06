@@ -1,8 +1,6 @@
 # web-dev-projects-01
 
-- ## My Profile Links : [rahuldutta.bio.link](https://rahuldutta.bio.link)
-
----
+### My Profile Links : [rahuldutta.bio.link](https://rahuldutta.bio.link)
 
 ### liquid-landing-page
   - using `html` `Tailwind CSS`
